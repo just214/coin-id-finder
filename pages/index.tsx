@@ -45,6 +45,8 @@ export default function Home(
         <h1 className="text-4xl lg:text-5xl font-bold flex items-center my-2 text-blue-500">
           <img
             className="fill-current h-10 w-10 lg:(w-12 h-12) mr-2"
+            height="20"
+            width="20"
             src="coin-id-finder-logo.svg"
           />
           Coin ID Finder
