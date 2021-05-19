@@ -52,7 +52,7 @@ export default function Home(
           Coin ID Finder
         </h1>
         <p className="text-sm">
-          A handy little tool to find CoinMarketCap and CoinGecko coin ids for
+          A handy little tool to find CoinMarketCap and CoinGecko coin IDs for
           working with their respective APIs.
         </p>
       </header>

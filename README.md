@@ -1,6 +1,6 @@
 # Coin ID Finder
 
-A handy little tool to find CoinMarketCap and CoinGecko coin ids for working with their respective APIs.
+A handy little tool to find CoinMarketCap and CoinGecko coin IDs for working with their respective APIs.
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 

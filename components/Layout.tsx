@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Link from "next/link";
 export type LayoutProps = {
   children?: React.ReactNode;
   pageTitle?: string;
@@ -24,7 +25,7 @@ export const Layout = (props: LayoutProps) => {
     pageUrl = defaultSEO.pageUrl,
   } = props;
   return (
-    <div>
+    <div className="flex flex-col min-h-screen">
       <Head>
         <title>{pageTitle}</title>
         <meta name="description" content={pageDescription} />
@@ -46,9 +47,19 @@ export const Layout = (props: LayoutProps) => {
         <meta property="twitter:image" content={pageImage}></meta>
       </Head>
 
-      <main className="container mx-auto px-2 md:px-32 lg:px-64 xl:px-96 mb-12">
+      <main className="container mx-auto px-2 md:px-32 lg:px-64 xl:px-96 mb-12 flex-1">
         {children}
       </main>
+      <footer className="flex justify-center py-2">
+        <a
+          href="https://github.com/gojutin/coin-id-finder"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="GitHub"
+        >
+          <img src="github.svg" height="20" width="20" className="h-10 w-10" />
+        </a>
+      </footer>
     </div>
   );
 };

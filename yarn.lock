@@ -118,10 +118,10 @@
   resolved "https://registry.npmjs.org/@types/prop-types/-/prop-types-15.7.3.tgz#2ab0d5da2e5815f94b0b9d4b95d1e5f243ab2ca7"
   integrity sha512-KfRL3PuHmqQLOG+2tGpRO26Ctg+Cq1E01D2DMriKEATHgWLfeNDmq9e29Q9WIky0dQ3NPkd1mzYH8Lm936Z9qw==
 
-"@types/react@^17.0.5":
-  version "17.0.5"
-  resolved "https://registry.npmjs.org/@types/react/-/react-17.0.5.tgz#3d887570c4489011f75a3fc8f965bf87d09a1bea"
-  integrity sha512-bj4biDB9ZJmGAYTWSKJly6bMr4BLUiBrx9ujiJEoP9XIDY9CTaPGxE5QWN/1WjpPLzYF7/jRNnV2nNxNe970sw==
+"@types/react@^17.0.6":
+  version "17.0.6"
+  resolved "https://registry.npmjs.org/@types/react/-/react-17.0.6.tgz#0ec564566302c562bf497d73219797a5e0297013"
+  integrity sha512-u/TtPoF/hrvb63LdukET6ncaplYsvCvmkceasx8oG84/ZCsoLxz9Z/raPBP4lTAiWW1Jb889Y9svHmv8R26dWw==
   dependencies:
     "@types/prop-types" "*"
     "@types/scheduler" "*"
@@ -1816,10 +1816,10 @@ tty-browserify@0.0.1:
   resolved "https://registry.npmjs.org/tty-browserify/-/tty-browserify-0.0.1.tgz#3f05251ee17904dfd0677546670db9651682b811"
   integrity sha512-C3TaO7K81YvjCgQH9Q1S3R3P3BtN3RIM8n+OvX4il1K1zgE8ZhI0op7kClgkxtutIE8hQrcrHBXvIheqKUUCxw==
 
-twind@^0.16.15:
-  version "0.16.15"
-  resolved "https://registry.npmjs.org/twind/-/twind-0.16.15.tgz#217b286d2bd90dcfdece14a8827c9605a50e3f1e"
-  integrity sha512-7Byv1hmzGHs4ekLF/EV5Xbz/J6fd3MdLezG3ttSBUBwf5bqBJH82f1JCixrfAYxQerD76HmZNnCSvggO+B0f6w==
+twind@^0.16.16:
+  version "0.16.16"
+  resolved "https://registry.npmjs.org/twind/-/twind-0.16.16.tgz#76959cd21897528f9a2631a293e3381b668332ad"
+  integrity sha512-UlAYjkGCdgjg4xU1SIwRW0PpG0anZrY32+kS2jYsi32yb4RuW0ttzaI1OglgwAUk/rZwzoINilnIFORzOSFZag==
   dependencies:
     csstype "^3.0.5"
     htmlparser2 "^6.0.0"
