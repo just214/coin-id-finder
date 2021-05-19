@@ -90,7 +90,7 @@ export default function Home(
                   key={name}
                   className={`p-2 flex items-center justify-between ${
                     isExactMatch
-                      ? "rounded-xl bg:gray-100 dark:bg-gray-800"
+                      ? "rounded-sm bg-gray-200 dark:bg-gray-800"
                       : "bottom-border"
                   }`}
                 >
@@ -101,14 +101,12 @@ export default function Home(
                     </p>
 
                     <p>
-                      <span className="text-sm text-gray-500">
-                        CoinGecko ID:
-                      </span>{" "}
+                      <span className="text(sm gray-500)">CoinGecko ID:</span>{" "}
                       <b className="text-yellow-500">{coinGeckoId || "🤷🏻‍♂️"} </b>
                     </p>
 
                     <p>
-                      <span className="text-sm text-gray-500">
+                      <span className="text(sm gray-500)">
                         CoinMarketCap ID:
                       </span>{" "}
                       <b className="text-yellow-500">{coinMarketCapId}</b>
