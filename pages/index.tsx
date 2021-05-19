@@ -90,7 +90,7 @@ export default function Home(
                   key={name}
                   className={`p-2 flex items-center justify-between ${
                     isExactMatch
-                      ? "rounded-sm bg-gray-200 dark:bg-gray-800"
+                      ? "rounded-sm bg-gray-100 dark:bg-gray-800"
                       : "bottom-border"
                   }`}
                 >
