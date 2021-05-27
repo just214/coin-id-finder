@@ -1,5 +1,4 @@
 import Head from "next/head";
-import Link from "next/link";
 export type LayoutProps = {
   children?: React.ReactNode;
   pageTitle?: string;
@@ -13,7 +12,7 @@ const defaultSEO = {
   pageDescription:
     "A handy little tool to find CoinMarketCap and CoinGecko coin IDs for working with their respective APIs.",
   pageImage: "/coin-id-finder-logo.svg",
-  pageUrl: "https://www.coin-id-finder.vercel.app",
+  pageUrl: "https://www.coin-id-finder.vercel.app/",
 };
 
 export const Layout = (props: LayoutProps) => {
