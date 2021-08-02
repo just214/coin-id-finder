@@ -64,7 +64,7 @@ export default function Home(
           onChange={(e) => setSearchTerm(e.target.value)}
           type="search"
           placeholder="Search by coin name or symbol (ex. ETH or bitcoin)"
-          className="rounded-full w-full py-4 px-8 outline-none bg-gray-100 dark:bg-gray-800 text-xl"
+          className="rounded-full w-full py-4 px-8 outline-none bg-gray-100 dark:bg-gray-800 text-xl border border-gray-600 dark:border-gray-200"
         />
       </label>
 
@@ -151,9 +151,12 @@ export async function getStaticProps() {
       symbol: coinMarketCapCoinData.symbol,
       coinMarketCapId: coinMarketCapCoinData.id,
       coinGeckoId:
-        coinGeckoData.find((coinGeckoCoinData) =>
-          isMatch(coinGeckoCoinData.symbol, coinMarketCapCoinData.symbol)
-        )?.id || null,
+        coinGeckoData.find((coinGeckoCoinData) => {
+          return isMatch(
+            coinGeckoCoinData.symbol + coinGeckoCoinData.name,
+            coinMarketCapCoinData.symbol + coinMarketCapCoinData.name
+          );
+        })?.id || null,
     };
   }) as SearchResult[];
 
