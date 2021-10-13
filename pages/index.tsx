@@ -64,7 +64,7 @@ export default function Home(
           onChange={(e) => setSearchTerm(e.target.value)}
           type="search"
           placeholder="Search by coin name or symbol (ex. ETH or bitcoin)"
-          className="rounded-full w-full py-4 px-8 outline-none bg-gray-100 dark:bg-gray-800 text-xl border border-gray-600 dark:border-gray-200"
+          className="rounded-full w-full py-4 px-8 outline-none bg-gray-100 dark:bg-gray-800 text-xl"
         />
       </label>
 
